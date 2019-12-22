@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Courses </title>
-        <link rel="stylesheet" href="courses.css">
-    <body>
-            <!DOCTYPE html>
-<html>
-    <head>
-        <title> Courses </title>
 
-    <body>
-        
-            <ul>  
-                
-                    <li>  <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/index1.HTML"> Home </a> </li>
-    
-                    <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/courses.HTML"> Courses </a> </li>
-                    
-                    <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/contact.HTML?"> Contact </a> </li>
-                    
-             </ul>
-             <center>
-         <h1> Courses </h1>
-         <h2> <span id="makeGreen"> feedback </span>  </h2>
+<head>
+    <title> Courses </title>
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+        <ul>
 
-         <button> B </button>
-         <button> I </button>
-         <button> Underline </button>
+            <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/index1.HTML"> Home </a> </li>
 
-         <select>
-                <option> 20px </option>
-                <option> 10px </option>
-                <option> 5px </option>
-        </select>
+            <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/courses.HTML"> Courses </a> </li>
 
-        <select>
-                <option> Arial </option>
-                <option> Verdana</option>
-                <option> Genova</option>
-        </select>
+            <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/contact.HTML?"> Contact </a> </li>
 
-        <form>
+        </ul>
+        <center>
 
-        <textarea cols="50" rows="20"> </textarea>
+            <h1> Courses </h1>
+            <h2> <span id="makeGreen"> feedback </span> </h2>
 
-        </form>
+            <button onclick="makeBold()"> B </button>
+            <button onclick="makeItalic()"> I </button>
+            <button onclick="makeUnderline()"> Underline </button>
 
-</center>
+            <select id="mySelect" onchange="changeSize()">
+                <option > 20px </option>
+                <option > 10px </option>
+                <option > 5px </option>
+            </select>
+
+            <select id="mySelect1" onchange="changepolice()">
+                <option > Arial </option>
+                <option > Verdana </option>
+                <option > Genova </option>
+            </select>
+
+            <form>
+
+                <textarea id="text" cols="50" rows="20"> </textarea>
+
+            </form>
+
+        </center>
     </body>
+    <script src="js/main.js"> </script>
+</html>
