@@ -60,3 +60,8 @@ function changepolice() {
 
     getText.style.fontFamily = e.options[e.selectedIndex].text;
 }
+
+
+$(document).ready(function(){
+    
+});
