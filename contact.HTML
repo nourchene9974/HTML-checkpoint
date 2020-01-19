@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Contact </title>
 
-    <body>
-            <ul>  
-                
-                    <li>  <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/index1.HTML"> Home </a> </li>
-    
-                    <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/courses.HTML"> Courses </a> </li>
-                    
-                    <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/contact.HTML?"> Contact </a> </li>
-                    
-             </ul>
-             <center>
-         <h1> Contact </h1>
+<head>
+    <title> Contact </title>
+    <link rel="icon" href="res/home3.png">
+    <link rel="stylesheet" href="courses.css">
+    <script src="js/jquery.js"></script>
+</head>
 
-         <form>
-             <label> name </label> <br> <input type="text" placeholder="Jhon Doe">
-             <br>
-             <label> track </label> <br>
-             <select>
-                 <option> web </option>
-                 <option> Game </option>
-                 <option> AI </option>
-                 </select>
-                <br> 
-            <label> Email Adress </label> <br> <input type="email" placeholder="">
-                <br>
-            <label> Phone Number </label> <br> <input type="number" placeholder="">
-                <br>
-            <input type="submit" value="submit">
-            <input type="submit" value="Submit">
-         </form>
-        </center>
-    </body>
+<body>
+
+    <ul class="navbar">
+
+        <img src="res/home6.png" height="50" width="50"> </img>
+
+        <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/index1.HTML"> <span id="makeGreen"> HOME</span>
+            </a> </li>
+
+        <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/courses.HTML"> <span id="makeBlue"> COURSES
+                </span> </a> </li>
+
+        <li> <a href="file:///C:/Users/Lenovo/Desktop/GoMyCode/WebDev1/contact.HTML?"> <span id="makepink"> CONTACT
+                </span> </a> </li>
+
+    </ul>
+
+    <center>
+
+        <div class="entete">
+            <img src="res/webdev3.png" height="1000" width="1500"> </img>
+            <h1 class="entete1"> Courses </h1>
+        </div>
+
+        <form id="contactForm">
+            <label> name </label> <br> <input type="text" id="name" name="name" placeholder="Jhon Doe">
+            <br>
+            <label> track </label> <br>
+            <select id="track">
+                <option> web </option>
+                <option> Game </option>
+                <option> AI </option>
+            </select>
+            <br>
+            <label> Email Adress </label> <br> <input type="email" id="email" name="email" placeholder="">
+            <br>
+            <label> Phone Number </label> <br> <input type="number" id="number" placeholder="">
+            <br>
+            <input type="submit" value="Submit" id="submitButton">
+
+        </form>
+    </center>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+<script src="js/contact.js"> </script>
+
+</html>

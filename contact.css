@@ -1,0 +1,80 @@
+#makeGreen{
+    color: white
+    
+    
+  }
+  
+  #Green{
+    color: white
+  }
+  
+  #makeBlue{
+    color:white
+  }
+  
+  #makepink{
+    color:white
+    
+  }
+  
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 25px;
+    
+  }
+  li a {
+    text-decoration: none;
+  }
+  
+  
+  body{
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+  }
+  
+
+  .entete{
+    color: white
+    
+  }
+  
+  
+  .entete {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .entete img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #email {
+
+    color: aliceblue;
+  }
+
+
+  #name {
+
+    color: aliceblue;
+  }
+
+  
+  #number {
+
+    color: aliceblue;
+  }
